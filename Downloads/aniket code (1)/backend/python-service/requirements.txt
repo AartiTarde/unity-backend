@@ -1,0 +1,21 @@
+# Core Web Framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# PDF Processing
+pymupdf>=1.24.0  # PDF processing library
+
+# OCR - Multiple Options  
+pytesseract>=0.3.13  # Tesseract OCR (fallback) - supports Python 3.14
+
+# Image Processing
+Pillow>=10.0.0
+numpy>=2.0.0  # NumPy 2.x for Python 3.14
+
+# Configuration & Utilities
+python-dotenv>=1.0.0  # Environment variables
+requests>=2.31.0  # HTTP requests for Google Vision API (legacy)
+openpyxl>=3.1.0  # Excel file generation
+
+# Google Cloud Vision API
+google-cloud-vision>=3.0.0  # Google Cloud Vision client library (for GOOGLE_APPLICATION_CREDENTIALS)
